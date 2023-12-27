@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: black;
+    height: 100vh;
+    background-color: aliceblue;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    text-align: center;
+  }
+
+  .totaldiv {
+    display: none;
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+}
+
+  .form label {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+  }
+  .form input {
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border-radius: 9px;
+  }
+
+  .btn {
+    background-color: rgb(161, 192, 219);
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.5s;
+  }
+
+  .btn:hover {
+    background-color: rgb(122, 154, 182);
+  }
+
+  .bill {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    background: rgb(246, 245, 245);
+    padding: 3rem;
+  }
