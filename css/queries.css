@@ -6,36 +6,13 @@
         font-size: 50%;
     }
     .bill {
-        position: absolute;
-        top: 25%;
-        left: 33%;
-      }
+      position: relative;
+      top: 30%;
+    }
 }
-
-/* BELOW 640px */ 
-@media (max-width: 40em) {
-    .bill {
-        position: absolute;
-        top: 25%;
-        left: 20%;
-      }
-  }
-
-/* BELOW 560px */ 
-@media (max-width: 35em) {
-    .bill {
-        position: absolute;
-        top: 25%;
-        left: 15%;
-      }
-  }
 
 /* BELOW 480px */
 @media (max-width: 30em) {
-    .bill {
-        top: 25%;
-        left: 10%;
-      }
       html {
         font-size: 48%;
     }
@@ -43,10 +20,6 @@
 
 /* BELOW 420px */
 @media (max-width: 26.25em) {
-    .bill {
-        top: 30%;
-        left: 8%;
-      }
       html {
         font-size: 45%;
     }
